@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html>
 
-<!--main assignment header-->
-<h1><b><u>IT 100 Self-Assignment VS Code: HTML Form Creation</u></b></h1>
+    <body>
 
-<!--opening summary paragraph-->
-<p></p>
-<input
-<form>
+        <!--main assignment header-->
+        <h1><b><u>IT 100 Self-Assignment VS Code: HTML Form Creation</u></b></h1>
 
-</form>
+        <!--opening form summary paragraph-->
+        <p>Please input your first and last name into the specified fields, select your preferred food from the dropdown menu, 
+        and notify us of any allergies you may have.</p>
 
+    <br>
+    <br>
+
+        <!--creates the main form-->
+        <form action="#" method="post">
+
+            <!--creates the "first name" text before the text box-->
+            <label for="firstName">First Name</label>
+
+            <!--creates the text box for entering the user's first name-->
+            <input id="firstName" name="firstName" type="text" minlength="2" maxlength="30" required>
+
+    <br>
+    <br>
+
+            <!--creates the "last name" text before the text box-->
+            <label for="lastName">Last Name</label>
+
+            <!--creates the text box for entering the user's last name-->
+            <input id="lastName" name="lastName" type="text" minlength="2" maxlength="30" required>
+
+    <br>
+    <br>
+
+            <!--creates the "food selection" text before the dropdown menu-->
+            <label for="foodSelection">Food Selection</label>
+
+            <!--creates the dropdown menu for selecting a food-->
+            <select id="foodSelection" name="foodSelection" required>
+
+                <!--option 1 acts as blank placeholder. "disabled" means it can't be selected. "selected" means its the default option displayed-->
+                <option disabled selected></option>
+
+                <option>Chicken</option>
+
+                <option>Beef</option>
+
+                <option>Fish</option>
+
+            </select>
+
+    <br>
+    <br>
+
+            <!--creates the "allergies" text before the text box-->
+            <label for="allergies">Please input any allergies in the field below. If none, leave the field blank.</label>
+
+    <br>
+    <br>
+
+            <!--creates the text area for entering allergies-->
+            <textarea id="allergies" name="allergies"></textarea>
+
+    <br>
+            <a href="https://www.fsis.usda.gov/sites/default/files/media_file/2020-10/Chicken_Turkey_Nutrition_Facts.pdf">Nutritional information about chicken</a>
+    <br>
+            <a href="https://www.ars.usda.gov/ARSUserFiles/80400525/data/beef/retail_beef_cuts02.pdf">Nutritional information about beef</a>
+    <br>
+            <a href="https://fdc.nal.usda.gov/food-details/2684441/nutrients">Nutritional information about fish</a>
+    <br>
+    <br>
+            <!--creates the button which says "Submit"-->
+            <button>Submit</button>
+
+        </form>
+    </body>
 </html>
