@@ -1,0 +1,21 @@
+/*Sets the header 1 text color to green*/
+h1{
+    color:green;
+}
+
+/*Sets the header 2 text color to purple*/
+h2{
+    color:purple;
+}
+
+/**/
+p{
+    background-color:violet;
+    color:yellow;
+}
+
+/*Sets the button color to blue and the text color to white*/
+button{
+    background-color:blue;
+    color:white;
+}

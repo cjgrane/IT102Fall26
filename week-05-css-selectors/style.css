@@ -1,0 +1,36 @@
+/*Assign purple to the RPG class*/
+.rpg {
+    color: purple;
+}
+
+/*Assign crimson text color to the FPS class */
+.fps {
+    color: crimson;
+}
+
+/*Assign blue text color to the racing class*/
+.racing {
+    color: blue;
+}
+
+/*Assign the gray text color to the stealth class*/
+.stealth {
+    color: gray;
+}
+
+/*Assign the teal text color to the sidescroller class with the HEX code*/
+.side-scroller {
+    color: #008080;
+}
+
+/*Set the yes button background color to green and the text color to white*/
+#yesButton {
+    background-color: green;
+    color: white;
+}
+
+/*Set the no button background color to red and the text color to white*/
+#noButton {
+    background-color: red;
+    color: white;
+}
